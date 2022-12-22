@@ -16,7 +16,7 @@ birthMonth=birthYear.getMonth();
 currentDate=y.getDate();
 birthdate=birthYear.getDate();
 age=(currentYear-year)
-if (birthMonth>=currentmonth && currentDate>=birthdate)
+if (birthMonth<=currentmonth && currentDate>=birthdate)
 {
 document.write(`your age is : ${age}`)
 }
